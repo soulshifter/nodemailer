@@ -13,6 +13,8 @@
 -   Fetch the SMTP server settings of your email service provider. For e.g. - [Rediffmail](https://www.saleshandy.com/smtp/rediffmail-smtp-settings/)
 -   Run **npm install**.
 -   Run **npm start**. The program will ask for the email address to send the message to.
+-   The well known SMTP services supported by **Nodemailer** are in this [link](https://nodemailer.com/smtp/well-known/). These services do not require any host or port settings. The user can directly pass in the service name.
+-   Apart from the well known services, the SMTP information needs to be there.
 
 ### Observations:
 
